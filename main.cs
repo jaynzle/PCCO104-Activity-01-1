@@ -5,8 +5,9 @@ class Program {
     string firstName = "Nathan";
     string lastName = "Esmaya";
     int age = 19;
+    string gender = "Male";
     string address = "Malolos, Bulacan";
-    Console.WriteLine ($"Hello World {firstName} {lastName} {age} {address}");
-    Console.WriteLine ("Hello World" + " " + firstName + " " + lastName + " " + age + " " + address);
+    Console.WriteLine ($"Hello World {firstName} {lastName} {age} {gender} {address}");
+    Console.WriteLine ("Hello World" + " " + firstName + " " + lastName + " " + age + " " + gender + " " + address);
   }
 }
