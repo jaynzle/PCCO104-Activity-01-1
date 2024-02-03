@@ -7,7 +7,8 @@ class Program {
     int age = 19;
     string gender = "Male";
     string address = "Malolos, Bulacan";
-    Console.WriteLine ($"Hello World {firstName} {lastName} {age} {gender} {address}");
-    Console.WriteLine ("Hello World" + " " + firstName + " " + lastName + " " + age + " " + gender + " " + address);
+    string subject = "Intermediate Programming";
+    Console.WriteLine ($"Hello World {firstName} {lastName} {age} {gender} {address} {subject}");
+    Console.WriteLine ("Hello World" + " " + firstName + " " + lastName + " " + age + " " + gender + " " + address + " " + subject);
   }
 }
