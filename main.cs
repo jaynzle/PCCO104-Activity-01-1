@@ -5,7 +5,8 @@ class Program {
     string firstName = "Nathan";
     string lastName = "Esmaya";
     int age = 19;
-    Console.WriteLine ($"Hello World {firstName} {lastName} {age}");
-    Console.WriteLine ("Hello World" + " " + firstName + " " + lastName + " " + age);
+    string address = "Malolos, Bulacan";
+    Console.WriteLine ($"Hello World {firstName} {lastName} {age} {address}");
+    Console.WriteLine ("Hello World" + " " + firstName + " " + lastName + " " + age + " " + address);
   }
 }
